@@ -1581,9 +1581,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '917428849575'
+   dtod1 = '917428849575'
+   dtod2 = '19715122809'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -1731,7 +1731,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://www.instagram.com/nsutjordi/')
 break
    
 case 'owner':

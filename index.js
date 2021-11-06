@@ -77,7 +77,7 @@ const { herolist } = require('./lib/herolist.js')
 const { fetchJson, getBase64, kyun, createExif } = require("./lib/fetcher");
 const { yta, ytv, igdl, upload, formatDate } = require("./lib/ytdl");
 const { webp2mp4File } = require("./lib/webp2mp4");
-const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time = moment().tz("Asia/Kolkata").format("HH:mm:ss");
 const afk = JSON.parse(fs.readFileSync("./lib/off.json"));
 const { sleep, isAfk, cekafk, addafk } = require("./lib/offline");
 const { cmdadd } = require("./lib/totalcmd.js");
@@ -133,9 +133,9 @@ nopref = false
 numbernye = '0'
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "917428849575"; 
+owner = "917428849575"; 
+fakeyoi = "Jordi"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -144,7 +144,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "https://api.zeks.xyz",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@917428849575"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -343,7 +343,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`917428849575@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -387,13 +387,13 @@ var hayuk0 = '[NOT VERIFIED]'
 			hayuk0 = '[√ VERIFIED]'
 			}
     //Y
-const timeWib = moment.tz('Asia/Jakarta').format('DD/MM HH:mm:ss')
+const timeWib = moment.tz('Asia/Kolkata').format('DD/MM HH:mm:ss')
 		const timeWita = moment().tz('Asia/Makassar').format('DD/MM HH:mm:ss')
         const timeWit = moment().tz('Asia/Jayapura').format('DD/MM HH:mm:ss')
-    const time = moment.tz("Asia/Jakarta").format("DD/MM HH:mm:ss");
-    const jam = moment().tz("Asia/Jakarta").format("HH:mm:ss");
-    const wita = moment.tz("Asia/Makassar").format("HH:mm:ss");
-    const wit = moment.tz("Asia/Jayapura").format("HH:mm:ss");
+    const time = moment.tz("Asia/Kolkata").format("DD/MM HH:mm:ss");
+    const jam = moment().tz("Asia/Kolkata").format("HH:mm:ss");
+    const wita = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+    const wit = moment.tz("Asia/Kolkata").format("HH:mm:ss");
     let locale = "id";
     let d = new Date();
     let gmt = new Date(0).getTime() - new Date("1 January 1970").getTime();
@@ -475,7 +475,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "Jordi",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -787,7 +787,7 @@ if (!itsMe && !isOwner)return
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
             title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            description: "Jordi",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
@@ -929,7 +929,7 @@ remoteJid :"6289523258649-1604595598@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
-             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Xeon*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*Jordi*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
@@ -2380,7 +2380,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "https://github.com/iamenpjordi", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -3540,7 +3540,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('https://github.com/DGXeon')
+  reply('https://github.com/iamenpjordi')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/iamenpjordi"
         },
         "index": 0
       }
